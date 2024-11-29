@@ -19,6 +19,7 @@ execute as @r run summon marker ~ 50 ~ {Tags:["lava_level"]}
 give @a tacz:modern_kinetic_gun{HasBulletInBarrel:1b,GunFireMode:"SEMI",GunId:"tacz:glock_17",GunCurrentAmmoCount:17}
 give @a tacz:ammo{AmmoId:"tacz:9mm"} 36
 give @a golden_pickaxe{Enchantments:[{lvl:5,id:efficiency},{lvl:2,id:unbreaking}]}
+give @a minecraft:torch 16
 
 execute as @a[team=test] run spreadplayers 0 0 200 99999 false @s
 execute as @a[team=test] at @a[team=test] run worldborder center ~ ~
