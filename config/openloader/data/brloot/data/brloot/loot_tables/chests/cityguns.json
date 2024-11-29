@@ -4,21 +4,10 @@
     {
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 1
       },
       "bonus_rolls": 0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:splash_potion",
@@ -50,7 +39,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -147,32 +136,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:efficiency": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_shovel",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:efficiency": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:diamond_boots",
           "weight": 2,
           "functions": [
@@ -187,8 +150,7 @@
       ]
     },
     {
-      "rolls": 1,
-      "bonus_rolls": {
+      "rolls": {
         "min": 0,
         "max": 1
       },
@@ -253,7 +215,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
           "functions": [

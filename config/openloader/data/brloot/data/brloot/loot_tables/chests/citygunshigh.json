@@ -4,25 +4,13 @@
     {
       "rolls": {
         "min": 0,
-        "max": 4
+        "max": 2
       },
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:splash_potion",
-          "weight": 18,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -51,7 +39,7 @@
     {
       "rolls": {
         "min": 1,
-        "max": 3
+        "max": 2
       },
       "entries": [
         {
@@ -147,32 +135,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:efficiency": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_shovel",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:efficiency": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:diamond_boots",
           "weight": 5,
           "functions": [
@@ -187,7 +149,10 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -209,7 +174,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
           "functions": [

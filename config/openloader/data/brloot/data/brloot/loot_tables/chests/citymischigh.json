@@ -6,51 +6,30 @@
         "min": 0,
         "max": 2
       },
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
-            }
-          ]
+          "name": "firstaid:bandage",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
-          "weight": 18,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
-            }
-          ]
+          "name": "firstaid:morphine",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 7
+          "weight": 4
         }
       ]
     },
     {
-      "rolls": 4,
-      "bonus_rolls": 5,
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -61,11 +40,11 @@
               "function": "minecraft:set_nbt",
               "tag": "{AmmoId:\"tacz:45acp\"}"
             },
-			{
+            {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
-                "max": 50
+                "min": 40,
+                "max": 40
               },
               "add": false
             }
@@ -83,8 +62,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
-                "max": 50
+                "min": 40,
+                "max": 40
               },
               "add": false
             }
@@ -95,15 +74,15 @@
           "name": "tacz:ammo",
           "weight": 1,
           "functions": [
-			{
+            {
               "function": "minecraft:set_nbt",
               "tag": "{AmmoId:\"tacz:338\"}"
             },
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 30
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
@@ -120,8 +99,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
-                "max": 50
+                "min": 40,
+                "max": 40
               },
               "add": false
             }
@@ -138,8 +117,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
-                "max": 50
+                "min": 40,
+                "max": 40
               },
               "add": false
             }
@@ -156,14 +135,14 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
-                "max": 50
+                "min": 40,
+                "max": 40
               },
               "add": false
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "tacz:ammo",
           "functions": [
@@ -174,14 +153,14 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 24
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "tacz:ammo",
           "functions": [
@@ -192,14 +171,14 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 24
+                "min": 15,
+                "max": 15
               },
               "add": false
             }
           ]
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "tacz:ammo",
           "functions": [
@@ -210,7 +189,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
+                "min": 30,
                 "max": 30
               },
               "add": false
@@ -232,7 +211,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "tacz:attachment",
           "functions": [
@@ -252,7 +231,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "tacz:attachment",
           "functions": [
