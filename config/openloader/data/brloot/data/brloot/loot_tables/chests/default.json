@@ -10,28 +10,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "firstaid:plaster",
           "weight": 6
         },
@@ -341,16 +319,9 @@
     },
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": {
-          "min": 1,
-          "max": 1
-        }
-      },
-      "bonus_rolls": {
-        "min": 0,
-        "max": 1
+        "type": "minecraft:binomial",
+        "n": 4,
+        "p": 0.1
       },
       "entries": [
         {
