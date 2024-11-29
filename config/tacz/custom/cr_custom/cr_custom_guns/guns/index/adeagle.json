@@ -1,0 +1,7 @@
+{
+  "name": "cr_custom_guns.gun.adeagle.name",
+  "display": "cr_custom_guns:adeagle_display",
+  "data": "cr_custom_guns:adeagle_data",
+  "type": "pistol",
+  "tooltip": "cr_custom_guns.gun.adeagle.desc"
+}

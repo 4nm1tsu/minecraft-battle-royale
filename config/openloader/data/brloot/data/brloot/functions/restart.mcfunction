@@ -1,0 +1,2 @@
+execute store result score playercount Counts if entity @a[team=alive]
+ execute if score playercount Counts matches 1 as @a[team=alive] run title @a title ["",{"selector":"@s","color":"green","bold":true},{"text":"Won The Game!","color":"green","bold":false}] 

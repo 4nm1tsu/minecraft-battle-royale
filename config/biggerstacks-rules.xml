@@ -1,0 +1,12 @@
+<ruleset>	
+	<rule stacksize="1024">
+		<condition>id tacz:ammo</condition>
+	</rule>
+	<rule stacksize="8">
+		<or>
+			<condition>id minecraft:potion</condition>
+			<condition>id minecraft:splash_potion</condition>
+			<condition>id tacz:attachment</condition>
+		</or>
+	</rule>
+</ruleset>
