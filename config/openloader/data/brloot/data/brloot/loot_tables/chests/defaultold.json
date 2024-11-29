@@ -10,28 +10,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "firstaid:plaster",
           "weight": 6
         },
@@ -853,6 +831,19 @@
               "tag": "{AttachmentId:\"tacz:extended_mag_1\"}"
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 4,
+        "p": 0.1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pointblank:grenade"
         }
       ]
     }

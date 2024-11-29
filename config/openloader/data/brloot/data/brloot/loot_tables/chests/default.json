@@ -833,6 +833,19 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 4,
+        "p": 0.1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pointblank:grenade"
+        }
+      ]
     }
   ]
 }
