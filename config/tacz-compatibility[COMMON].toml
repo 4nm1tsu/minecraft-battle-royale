@@ -1,0 +1,8 @@
+#Use TACZ's Explosions (incompatible with Valkyrien Skies) or TacAid's explosions?(Compatible with Valkyrien Skies, but has odd player damage calculations) 
+# FALSE == TACZ, TRUE == TACAID
+explosion_type = true
+#Should projectiles hurt endermen?
+hurt_endermen = true
+#Should players get headshot? Disable if using FirstAid or LSO
+headshots = false
+
