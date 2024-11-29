@@ -268,16 +268,6 @@
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:deagle\",GunCurrentAmmoCount: 6}"
             }
           ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"cr_custom_guns:m231\",GunCurrentAmmoCount: 30}"
-            }
-          ]
         }
       ]
     }
