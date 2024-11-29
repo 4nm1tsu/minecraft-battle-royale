@@ -9,7 +9,6 @@ gamemode survival @a
 clear @a
 title @a clear
 execute as @r run team join test
-effect give @a minecraft:health_boost infinite 4 true
 effect give @a minecraft:resistance infinite 1 true
 effect give @a minecraft:instant_health 1 200 true
 effect give @a minecraft:saturation infinite 5 true
