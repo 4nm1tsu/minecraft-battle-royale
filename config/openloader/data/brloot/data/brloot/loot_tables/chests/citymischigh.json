@@ -242,16 +242,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:ammo_mod_i\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:attachment",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{AttachmentId:\"tacz:light_extended_mag_1\"}"
             }
           ]
