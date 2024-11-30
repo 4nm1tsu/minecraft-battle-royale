@@ -77,22 +77,22 @@
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_boots",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_chestplate",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_helmet",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_leggings",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -117,22 +117,22 @@
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_boots",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_chestplate",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_helmet",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_leggings",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -157,22 +157,22 @@
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_boots",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_chestplate",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_helmet",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_leggings",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -198,10 +198,10 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "type": "minecraft:binomial",
+        "n": 4,
+        "p": 0.5
       },
-      "bonus_rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -263,6 +263,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -281,6 +282,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -299,6 +301,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -317,6 +320,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -335,6 +339,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -355,8 +360,8 @@
     {
       "rolls": {
         "type": "minecraft:binomial",
-        "n": 4,
-        "p": 0.1
+        "n": 2,
+        "p": 0.25
       },
       "entries": [
         {
@@ -603,8 +608,9 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": 2
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.4
       },
       "entries": [
         {
@@ -852,8 +858,8 @@
     {
       "rolls": {
         "type": "minecraft:binomial",
-        "n": 5,
-        "p": 0.1
+        "n": 2,
+        "p": 0.2
       },
       "entries": [
         {

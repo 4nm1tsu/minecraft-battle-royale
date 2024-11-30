@@ -76,22 +76,22 @@
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_boots",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_chestplate",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_helmet",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:atf_vest_leggings",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -116,22 +116,22 @@
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_boots",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_chestplate",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_helmet",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:dea_armed_leggings",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -156,22 +156,22 @@
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_boots",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_chestplate",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_helmet",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "lrarmor:fbi_armed_leggings",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -198,8 +198,8 @@
     {
       "rolls": {
         "type": "minecraft:binomial",
-        "n": 4,
-        "p": 0.1
+        "n": 2,
+        "p": 0.25
       },
       "entries": [
         {

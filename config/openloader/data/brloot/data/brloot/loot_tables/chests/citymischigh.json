@@ -49,10 +49,10 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "type": "minecraft:binomial",
+        "n": 4,
+        "p": 0.5
       },
-      "bonus_rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -114,6 +114,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -132,6 +133,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -150,6 +152,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -168,6 +171,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -186,6 +190,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -204,7 +209,11 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.4
+      },
       "entries": [
         {
           "type": "minecraft:item",
