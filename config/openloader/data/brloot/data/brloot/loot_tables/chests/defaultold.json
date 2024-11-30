@@ -10,20 +10,37 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "firstaid:plaster",
-          "weight": 6
+          "name": "minecraft:potion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\"}"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "firstaid:bandage",
-          "weight": 4
+          "name": "minecraft:splash_potion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\"}"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "firstaid:morphine",
-          "weight": 4
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:regeneration\"}"
+            }
+          ]
         },
-
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
@@ -837,7 +854,7 @@
     {
       "rolls": {
         "type": "minecraft:binomial",
-        "n": 4,
+        "n": 5,
         "p": 0.1
       },
       "entries": [
