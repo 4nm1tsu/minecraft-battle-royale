@@ -349,24 +349,6 @@
               "add": false
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:ammo",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{AmmoId:\"tacz:357mag\"}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 10,
-                "max": 10
-              },
-              "add": false
-            }
-          ]
         }
       ]
     },
@@ -614,16 +596,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:rpk\",GunCurrentAmmoCount: 40}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:deagle_golden\",GunCurrentAmmoCount: 9}"
             }
           ]
         }

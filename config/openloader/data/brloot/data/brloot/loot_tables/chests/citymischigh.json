@@ -200,24 +200,6 @@
               "add": false
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:ammo",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{AmmoId:\"tacz:357mag\"}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 30,
-                "max": 30
-              },
-              "add": false
-            }
-          ]
         }
       ]
     },
