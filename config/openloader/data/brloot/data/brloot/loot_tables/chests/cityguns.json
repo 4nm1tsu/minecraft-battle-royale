@@ -56,107 +56,143 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_leggings",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_boots",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_chestplate",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_helmet",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_boots",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_leggings",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_vest_boots",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_vest_chestplate",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_leggings",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_vest_helmet",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_boots",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 3
-              }
-            }
-          ]
+          "name": "lrarmor:atf_vest_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_boots",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_helmet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_leggings",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_armed_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_armed_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_armed_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:dea_armed_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_boots",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_helmet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_leggings",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_armed_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_armed_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_armed_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:fbi_armed_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:irs_boots",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:irs_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:irs_helmet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lrarmor:irs_leggings",
+          "weight": 5
         }
       ]
     },
