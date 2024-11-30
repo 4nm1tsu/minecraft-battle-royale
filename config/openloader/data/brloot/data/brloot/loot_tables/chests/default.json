@@ -11,7 +11,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "weight": 6,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -33,7 +33,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -44,7 +44,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 4
+          "weight": 3
         }
       ]
     },
