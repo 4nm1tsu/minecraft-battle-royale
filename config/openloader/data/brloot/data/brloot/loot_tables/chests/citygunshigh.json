@@ -49,8 +49,9 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.4
       },
       "entries": [
         {
