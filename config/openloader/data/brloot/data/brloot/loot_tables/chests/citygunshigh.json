@@ -239,7 +239,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:aa12\",GunCurrentAmmoCount: 8}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:aa12\",GunCurrentAmmoCount: 8}"
             }
           ]
         },
