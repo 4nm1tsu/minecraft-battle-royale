@@ -481,7 +481,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:m16a1\",GunCurrentAmmoCount: 20}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"BURST\", GunId:\"tacz:m16a4\",GunCurrentAmmoCount: 20}"
             }
           ]
         },
@@ -491,7 +491,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:hk_g3\",GunCurrentAmmoCount: 20}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:hk_g3\",GunCurrentAmmoCount: 20}"
             }
           ]
         },
@@ -521,7 +521,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:scar_h\",GunCurrentAmmoCount: 20}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:scar_h\",GunCurrentAmmoCount: 20}"
             }
           ]
         },
