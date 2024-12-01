@@ -531,7 +531,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"BURST\", GunId:\"tacz:db_short\",GunCurrentAmmoCount: 2}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:db_short\",GunCurrentAmmoCount: 2}"
             }
           ]
         },
