@@ -264,6 +264,19 @@
               "tag": "{AttachmentId:\"tacz:extended_mag_1\"}"
             }
           ]
+        },
+        {
+          "rolls": {
+            "type": "minecraft:binomial",
+            "n": 2,
+            "p": 0.15
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "pointblank:grenade"
+            }
+          ]
         }
       ]
     }
