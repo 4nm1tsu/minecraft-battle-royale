@@ -1,0 +1,13 @@
+[
+  {
+    "mob": ["tacz_npc:terrorist_scav"],
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  },
+  {
+    "mod": "minecraft",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  }
+]
+
