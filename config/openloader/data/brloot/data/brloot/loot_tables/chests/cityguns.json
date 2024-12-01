@@ -310,16 +310,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"BURST\", GunId:\"tacz:m16a4\",GunCurrentAmmoCount: 30}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:scar_l\",GunCurrentAmmoCount: 30}"
             }
           ]
