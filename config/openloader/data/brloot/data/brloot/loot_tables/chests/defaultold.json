@@ -897,15 +897,17 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:binomial",
-        "n": 2,
-        "p": 0.15
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "pointblank:grenade"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
         }
       ]
     }
