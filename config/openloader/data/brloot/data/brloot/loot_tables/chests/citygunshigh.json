@@ -282,19 +282,19 @@
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:deagle\",GunCurrentAmmoCount: 6}"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.15
+      },
+      "entries": [
         {
-          "rolls": {
-            "type": "minecraft:binomial",
-            "n": 2,
-            "p": 0.15
-          },
-          "entries": [
-            {
-              "type": "minecraft:item",
-              "name": "pointblank:grenade"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "pointblank:grenade"
         }
       ]
     }

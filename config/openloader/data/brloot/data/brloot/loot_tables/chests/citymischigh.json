@@ -212,7 +212,7 @@
       "rolls": {
         "type": "minecraft:binomial",
         "n": 3,
-        "p": 0.4
+        "p": 0.2
       },
       "entries": [
         {
@@ -251,7 +251,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:light_extended_mag_1\"}"
+              "tag": "{AttachmentId:\"tacz:light_extended_mag_2\"}"
             }
           ]
         },
@@ -261,22 +261,22 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:extended_mag_1\"}"
+              "tag": "{AttachmentId:\"tacz:extended_mag_2\"}"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.15
+      },
+      "entries": [
         {
-          "rolls": {
-            "type": "minecraft:binomial",
-            "n": 2,
-            "p": 0.15
-          },
-          "entries": [
-            {
-              "type": "minecraft:item",
-              "name": "pointblank:grenade"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "pointblank:grenade"
         }
       ]
     }
