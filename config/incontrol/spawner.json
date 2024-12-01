@@ -15,7 +15,7 @@
       "maxdist": 50,
       "minheight": 1,
       "maxheight": 256,
-      "maxthis": 50
+      "maxthis": 20
     }
   },
   {
@@ -34,7 +34,7 @@
       "maxdist": 50,
       "minheight": 1,
       "maxheight": 256,
-      "maxthis": 20
+      "maxthis": 10
     }
   }
 ]
