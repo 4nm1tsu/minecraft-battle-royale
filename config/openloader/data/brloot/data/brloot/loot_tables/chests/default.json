@@ -3,10 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 2
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.5
       },
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -201,13 +201,13 @@
       "rolls": {
         "type": "minecraft:binomial",
         "n": 4,
-        "p": 0.5
+        "p": 0.45
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "tacz:ammo",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -216,8 +216,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 30,
-                "max": 30
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
@@ -235,8 +235,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 30,
-                "max": 30
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
@@ -254,8 +254,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
-                "max": 10
+                "min": 5,
+                "max": 5
               },
               "add": false
             }
@@ -273,8 +273,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 30,
-                "max": 30
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
@@ -292,8 +292,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 30,
-                "max": 30
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
@@ -311,8 +311,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 30,
-                "max": 30
+                "min": 20,
+                "max": 20
               },
               "add": false
             }
@@ -349,8 +349,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
-                "max": 10
+                "min": 8,
+                "max": 8
               },
               "add": false
             }
@@ -359,25 +359,12 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:binomial",
-        "n": 2,
-        "p": 0.25
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:hk_mp5a5\",GunCurrentAmmoCount: 30}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -388,6 +375,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -398,6 +386,40 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:deagle\",GunCurrentAmmoCount: 6}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:hk_mp5a5\",GunCurrentAmmoCount: 30}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -408,6 +430,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -418,6 +441,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -428,6 +452,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -438,16 +463,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:deagle\",GunCurrentAmmoCount: 6}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -458,6 +474,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -468,6 +485,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -478,6 +496,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -488,6 +507,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -498,6 +518,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -508,6 +529,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -518,6 +540,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -528,6 +551,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -538,6 +562,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -548,6 +573,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -558,6 +584,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -568,6 +595,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -578,6 +606,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -588,12 +617,19 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:rpk\",GunCurrentAmmoCount: 40}"
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.33
         }
       ]
     },
@@ -662,7 +698,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:attachment",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -914,7 +950,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.15
+          "chance": 0.2
         }
       ]
     }

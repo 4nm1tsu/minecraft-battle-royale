@@ -1,7 +1,7 @@
 [
   {
     "mob": ["tacz_npc:terrorist_scav", "tacz_npc:terrorist_scav_rifle"],
-    "weights": [3, 2],
+    "weights": [2, 2],
     "persecond": 0.10,
     "attempts": 20,
     "amount": {
@@ -20,8 +20,8 @@
   },
   {
     "mob": ["tacz_npc:usec_scav_pistol", "tacz_npc:usec_scav_rifle"],
-    "weights": [3, 2],
-    "persecond": 0.1,
+    "weights": [2, 2],
+    "persecond": 0.10,
     "attempts": 20,
     "amount": {
       "minimum": 1,
