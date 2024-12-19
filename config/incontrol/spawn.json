@@ -1,6 +1,6 @@
 [
   {
-    "mob": ["tacz_npc:terrorist_scav"],
+    "mob": ["tacz_npc:bandit", "tacz_npc:duty"],
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
@@ -10,4 +10,3 @@
     "result": "deny"
   }
 ]
-
