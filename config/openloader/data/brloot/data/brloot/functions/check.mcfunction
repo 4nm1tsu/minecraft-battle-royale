@@ -4,8 +4,8 @@ execute if score gameStarted started matches 0 run schedule function brloot:plrc
 
 
 
-scoreboard objectives setdisplay sidebar totalkills
-scoreboard objectives setdisplay list wins
+scoreboard objectives setdisplay list totalkills
+scoreboard objectives setdisplay sidebar wins
 
 team join notag @a
 
