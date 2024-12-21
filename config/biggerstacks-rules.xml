@@ -6,7 +6,6 @@
 		<or>
 			<condition>id minecraft:potion</condition>
 			<condition>id minecraft:splash_potion</condition>
-			<condition>id tacz:attachment</condition>
 		</or>
 	</rule>
 </ruleset>
