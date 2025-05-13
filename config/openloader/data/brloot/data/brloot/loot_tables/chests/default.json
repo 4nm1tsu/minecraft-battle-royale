@@ -355,6 +355,25 @@
               "add": false
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:57x28\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 25,
+                "max": 25
+              },
+              "add": false
+            }
+          ]
         }
       ]
     },
@@ -622,6 +641,61 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"AUTO\", GunId:\"tacz:rpk\",GunCurrentAmmoCount: 40}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\n  \"GunCurrentAmmoCount\": 5,\n  \"GunFireMode\": \"SEMI\",\n  \"GunId\": \"tacz:m700\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\n  \"GunCurrentAmmoCount\": 6,\n  \"GunFireMode\": \"SEMI\",\n  \"GunId\": \"tacz:m870\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\n  \"GunCurrentAmmoCount\": 7,\n  \"GunFireMode\": \"SEMI\",\n  \"GunId\": \"tacz:m1911\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\n  \"GunCurrentAmmoCount\": 30,\n  \"GunFireMode\": \"AUTO\",\n  \"GunId\": \"tacz:qbz_95\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\n  \"GunCurrentAmmoCount\": 50,\n  \"GunFireMode\": \"AUTO\",\n  \"GunId\": \"tacz:p90\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
             }
           ]
         }

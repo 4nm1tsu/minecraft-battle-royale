@@ -2,7 +2,7 @@
   {
     "mob": ["tacz_npc:bandit", "tacz_npc:duty"],
     "weights": [5, 2],
-    "persecond": 0.08,
+    "persecond": 0.10,
     "attempts": 100,
     "amount": {
       "minimum": 1,
