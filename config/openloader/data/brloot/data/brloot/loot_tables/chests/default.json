@@ -798,7 +798,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:muzzle_silence_ursus\"}"
+              "tag": "{AttachmentId:\"tacz:muzzle_silencer_ursus\"}"
             }
           ]
         },
@@ -1053,7 +1053,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:muzzle_silence_ptilopsis\"}"
+              "tag": "{AttachmentId:\"tacz:muzzle_silencer_ptilopsis\"}"
             }
           ]
         },
@@ -1064,7 +1064,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:muzzle_silence_knight_qd\"}"
+              "tag": "{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}"
             }
           ]
         },
