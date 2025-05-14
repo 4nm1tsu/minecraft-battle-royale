@@ -1,7 +1,7 @@
 [
   {
     "mob": ["tacz_npc:bandit", "tacz_npc:duty"],
-    "weights": [5, 2],
+    "weights": [5, 3],
     "persecond": 0.10,
     "attempts": 100,
     "amount": {
@@ -12,7 +12,7 @@
       "dimension": "minecraft:overworld",
       "norestrictions": true,
       "mindist": 25,
-      "maxdist": 40,
+      "maxdist": 60,
       "minheight": 1,
       "maxheight": 256,
       "maxthis": 40
