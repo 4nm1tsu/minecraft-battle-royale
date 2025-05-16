@@ -717,17 +717,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{\n  \"GunCurrentAmmoCount\": 30,\n  \"GunFireMode\": \"AUTO\",\n  \"GunId\": \"tacz:qbz_95\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{\n  \"GunCurrentAmmoCount\": 50,\n  \"GunFireMode\": \"AUTO\",\n  \"GunId\": \"tacz:p90\",\n  \"HasBulletInBarrel\": \"1b\"\n}"
             }
           ]
