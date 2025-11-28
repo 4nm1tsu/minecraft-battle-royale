@@ -725,7 +725,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.33
+          "chance": 0.4
         }
       ]
     },
@@ -1371,17 +1371,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{ThrowableId:\"lrtactical:flash_grenade\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "lrtactical:throwable",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{ThrowableId:\"lrtactical:rgn\"}"
             }
           ]
         },
