@@ -1,0 +1,353 @@
+
+[Observation]
+	#Time between selecting missions and spawning mission commanders,
+	#in ticks (20 ticks = 1 second)
+	#Default: 24000
+	#Range: > 1
+	tickCooldown = 1800
+	#How many squads (mission commanders) can exist at the same time.
+	#I wouldn't recommend setting this all the way to the max...
+	#Default: 3
+	#Range: 1 ~ 128
+	squadCount = 8
+	#List of blocks that swat will take note of when player interacts with them.
+	#Will be used in missions such as raid
+	#Example: `minecraft:chest`, `minecraft:furnace`
+	#Default: []
+	blockTargets = []
+	#List of entity types that swat will take note of when player interacts with them.
+	#Will be used in missions such as rescue
+	#Example: `minecraft:villager`, `minecraft:cow`
+	#Default: []
+	entityTargets = []
+
+[GunAttack]
+	#Time between gun attacks,
+	#in ticks (20 ticks = 1 second)
+	#Default: 40
+	#Range: > 1
+	cooldown = 60
+
+[SwatEntity]
+	#Multiplier for entities weapon's effective range.
+	#Default: 2.0
+	#Range: 0.01 ~ 10.0
+	effectiveRangeMult = 2.0
+	#Time between squad summonings by commander,
+	#in ticks (20 ticks = 1 second)
+	#Default: 6000
+	#Range: > 1
+	squadSummonCooldown = 6000
+	#Time after which dead body will despawn,
+	#in ticks (20 ticks = 1 second)
+	#Default: 6000
+	#Range: > 1
+	deadBodyLifespan = 6000
+	#Number of failed attempts entity has to do before it is considered as stuck.
+	#Default: 1800
+	#Range: > 1
+	failedGunPosLimit = 1800
+	#Time duration for which the entity is gonna hold it's current position even if it's not optimal.
+	#Higher values means less tps lag.
+	#Default: 300
+	#Range: > 1
+	holdPosDuration = 300
+	#Should a corpse be left behind.
+	#Default: false
+	noCorpse = false
+
+[Mission]
+
+	[Mission.Scouting]
+		#Allowed values: `commander`, `assaulter`, `grenadier`, `bulldozer`, `engineer`, `sniper`, `medic`, `scout`, `spy`
+		#Default: [medic, scout, scout, scout, scout, engineer, spy]
+		Participants = []
+
+	[Mission.Rescue]
+		#Allowed values: `commander`, `assaulter`, `grenadier`, `bulldozer`, `engineer`, `sniper`, `medic`, `scout`, `spy`
+		#Default: [medic, assaulter, assaulter, assaulter, bulldozer]
+		Participants = []
+
+	[Mission.Raid]
+		#Allowed values: `commander`, `assaulter`, `grenadier`, `bulldozer`, `engineer`, `sniper`, `medic`, `scout`, `spy`
+		#Default: [medic, assaulter, assaulter, assaulter, assaulter, bulldozer, grenadier, grenadier]
+		Participants = []
+
+	[Mission.Siege]
+		#Allowed values: `commander`, `assaulter`, `grenadier`, `bulldozer`, `engineer`, `sniper`, `medic`, `scout`, `spy`
+		#Default: [medic, sniper, sniper, grenadier, grenadier, grenadier, bulldozer]
+		Participants = []
+
+	[Mission.Arrest]
+		#Allowed values: `commander`, `assaulter`, `grenadier`, `bulldozer`, `engineer`, `sniper`, `medic`, `scout`, `spy`
+		#Default: [medic, assaulter, assaulter, assaulter, bulldozer, bulldozer, grenadier]
+		Participants = []
+
+	[Mission.Sabotage]
+		#Allowed values: `commander`, `assaulter`, `grenadier`, `bulldozer`, `engineer`, `sniper`, `medic`, `scout`, `spy`
+		#Default: [medic, spy, spy, spy, engineer, engineer]
+		Participants = []
+
+[Specialty]
+
+	[Specialty.Commander]
+		#Default: 90.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 20.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 10.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Assaulter]
+		#Default: 100.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 100.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Grenadier]
+		#Default: 80.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 80.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Bulldozer]
+		#Default: 150.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 150.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.5
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.5
+		#Default: 0.15
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.15
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Engineer]
+		#Default: 70.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 70.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Sniper]
+		#Default: 50.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 50.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Medic]
+		#Default: 70.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 70.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Scout]
+		#Default: 60.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 60.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.05
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.05
+		#Default: 0.5
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.5
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+
+	[Specialty.Spy]
+		#Default: 60.0
+		#Range: 1.0 ~ 1024.0
+		maxHealth = 60.0
+		#Default: 32.0
+		#Range: 0.0 ~ 2048.0
+		followRange = 32.0
+		#Default: 0.15
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.15
+		#Default: 0.3
+		#Range: 0.0 ~ 1024.0
+		movementSpeed = 0.3
+		#Default: 2.0
+		#Range: 0.0 ~ 2048.0
+		attackDamage = 2.0
+		#Default: 0.0
+		#Range: 0.0 ~ 5.0
+		attackKnockback = 0.0
+		#Default: 4.0
+		#Range: 0.0 ~ 1024.0
+		attackSpeed = 4.0
+		#Default: 0.0
+		#Range: 0.0 ~ 30.0
+		armor = 0.0
+		#Default: 0.0
+		#Range: 0.0 ~ 20.0
+		armorToughness = 0.0
+

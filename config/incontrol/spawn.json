@@ -1,6 +1,6 @@
 [
   {
-    "mob": ["tacz_npc:bandit", "tacz_npc:duty"],
+    "mob": ["taczsf:swat_entity"],
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
