@@ -1,6 +1,6 @@
 [
   {
-    "mob": ["simpleenemymod:ru_unit", "simpleenemymod:us_unit"],
+    "mob": ["simpleenemymod:ruunit", "simpleenemymod:usunit"],
     "weights": [5, 5],
     "persecond": 0.1,
     "attempts": 100,
