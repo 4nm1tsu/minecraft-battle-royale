@@ -15,7 +15,7 @@
       "maxdist": 40,
       "minheight": 1,
       "maxheight": 256,
-      "maxthis": 40
+      "maxthis": 30
     }
   }
 ]

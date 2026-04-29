@@ -45,23 +45,23 @@
 	#--------------------------------------------------
 	#Spread increase per block of distance to target (accuracy penalty at range)
 	#Range: 0.0 ~ 1.0
-	spreadIncrease = 0.012
+	spreadIncrease = 0.010
 	#--------------------------------------------------
 	#Minimum shots per burst
 	#Range: 1 ~ 20
-	minBurst = 3
+	minBurst = 1
 	#--------------------------------------------------
 	#Maximum shots per burst
 	#Range: 1 ~ 30
-	maxBurst = 5
+	maxBurst = 3
 	#--------------------------------------------------
 	#Minimum cooldown between bursts (ticks)
 	#Range: 0 ~ 200
-	minBurstCooldown = 10
+	minBurstCooldown = 15
 	#--------------------------------------------------
 	#Maximum cooldown between bursts (ticks)
 	#Range: 0 ~ 400
-	maxBurstCooldown = 15
+	maxBurstCooldown = 30
 
 [event_spawn]
 	#--------------------------------------------------
