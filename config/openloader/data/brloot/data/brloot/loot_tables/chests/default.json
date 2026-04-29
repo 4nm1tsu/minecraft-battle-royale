@@ -614,7 +614,7 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -625,11 +625,33 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:db_long\",GunCurrentAmmoCount: 2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:spas_12\",GunCurrentAmmoCount: 6}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:m1014\",GunCurrentAmmoCount: 7}"
             }
           ]
         },
