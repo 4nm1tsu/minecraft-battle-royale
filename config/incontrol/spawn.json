@@ -1,6 +1,6 @@
 [
   {
-    "mob": ["taczsf:swat_entity"],
+    "mob": ["simpleenemymod:ru_unit", "simpleenemymod:us_unit"],
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
