@@ -3,28 +3,28 @@
 ["Damage System"]
 	#Max health of the Head
 	#Range: 2 ~ 12
-	maxHealthHead = 4
+	maxHealthHead = 6
 	#Max health of the Left Arm
 	#Range: 2 ~ 12
-	maxHealthLeft_Arm = 4
+	maxHealthLeft_Arm = 8
 	#Max health of the Left Leg
 	#Range: 2 ~ 12
-	maxHealthLeft_Leg = 4
+	maxHealthLeft_Leg = 8
 	#Max health of the Left Foot
 	#Range: 2 ~ 12
-	maxHealthLeft_Foot = 4
+	maxHealthLeft_Foot = 8
 	#Max health of the Body
 	#Range: 2 ~ 12
-	maxHealthBody = 6
+	maxHealthBody = 10
 	#Max health of the Right Arm
 	#Range: 2 ~ 12
-	maxHealthRight_Arm = 4
+	maxHealthRight_Arm = 8
 	#Max health of the Right Leg
 	#Range: 2 ~ 12
-	maxHealthRight_Leg = 4
+	maxHealthRight_Leg = 8
 	#Max health of the Right Foot
 	#Range: 2 ~ 12
-	maxHealthRight_Foot = 4
+	maxHealthRight_Foot = 8
 	#True if the head can cause death if health drops to 0
 	causeDeathHead = true
 	#True if the body can cause death if health drops to 0
@@ -119,7 +119,7 @@
 	sleepHealPercentage = 0.07
 	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
 	#Range: 0.0 ~ 20.0
-	otherRegenMultiplier = 0.75
+	otherRegenMultiplier = 1.5
 	#The value vanilla's natural regeneration will be multiplied with. Has no effect if "allowNaturalRegeneration" is disabled
 	#Range: 0.0 ~ 20.0
 	naturalRegenMultiplier = 0.5
@@ -130,7 +130,7 @@
 
 [misc]
 	#If true, max health is scaled to your hearts, and the config entries get multiplier to match the max health
-	scaleMaxHealth = true
+	scaleMaxHealth = false
 	#If true, max health will be capped at 6 hearts and absorption at 2 hearts per limb. If false, the health cap will be much higher (64 hearts normal and 16 absorption)
 	capMaxHealth = true
 	#Specifies how the vanilla health is calculated. Affects the vanilla visual health bar, as well as the value other mods get to see when they query the player health.
