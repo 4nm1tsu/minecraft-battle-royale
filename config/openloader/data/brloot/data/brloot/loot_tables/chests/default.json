@@ -640,7 +640,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:spas_12\",GunCurrentAmmoCount: 6}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:spas_12\",GunCurrentAmmoCount: 5}"
             }
           ]
         },
@@ -651,7 +651,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:m1014\",GunCurrentAmmoCount: 7}"
+              "tag": "{HasBulletInBarrel:1b,GunFireMode:\"SEMI\", GunId:\"tacz:m1014\",GunCurrentAmmoCount: 6}"
             }
           ]
         },
