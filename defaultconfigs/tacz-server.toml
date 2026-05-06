@@ -30,8 +30,13 @@
 	#The maximum stack size of ammo that the ammo box can hold
 	#Range: > 1
 	AmmoBoxStackSize = 3
-	#The gun pack that the client player needs to download, needs to fill in the URL and the SHA1 value of the file
+	#Deprecated. Use vanilla server resource pack
 	ClientGunPackDownloadUrls = []
 	#Whether or not players are allowed to use the crawl feature
 	EnableCrawl = true
-
+	#Enable the recipe limit of default gunsmith table or not
+	EnableDefaultGunSmithTableFilter = true
+	#[Debug Option] Do server-side network check while shooting or not
+	ServerShootNetworkCheck = true
+	#[Debug Option] Do server-side shoot cooldown check or not. WARNING: Close this will disable the shoot cooldown check in server-side at all, which may lead to potential for cheating. Only consider to close this when you can't shoot at all sometimes.
+	ServerShootCooldownCheck = true
