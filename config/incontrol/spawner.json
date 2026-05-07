@@ -2,7 +2,7 @@
   {
     "mob": ["simpleenemymod:ruunit", "simpleenemymod:usunit"],
     "weights": [5, 5],
-    "persecond": 0.1,
+    "persecond": 0.08,
     "attempts": 100,
     "amount": {
       "minimum": 1,
@@ -11,11 +11,11 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "norestrictions": true,
-      "mindist": 25,
-      "maxdist": 40,
+      "mindist": 35,
+      "maxdist": 55,
       "minheight": 1,
       "maxheight": 256,
-      "maxthis": 30
+      "maxthis": 35
     }
   }
 ]
